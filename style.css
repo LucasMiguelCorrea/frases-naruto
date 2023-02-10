@@ -1,0 +1,81 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+:root{
+    --laranja: #E7894C;
+    --amarelo: #F1E852;
+    --cinza: #161518;
+    --azul: #3192F3;
+    --azulclaro: #4BA8ED;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+    background-color:#212024;
+}
+header{
+    background-color:#FF9432;
+    text-align: center;
+    color: #161518;
+    font-family: 'Domine', serif;
+}
+a{
+    text-decoration: none;
+    color: #161518;
+}
+header>h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-variant:small-caps ;
+    font-size: 2.2em;
+}
+header>p{
+    padding-bottom: 40px;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family:'Satisfy', cursive;;
+}
+section.normal{
+    background-color: white;
+}
+section.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.384);
+    background-color: #69676e;
+    color: white;
+    background-attachment: fixed;
+    
+}
+section.imagem>p{
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 400px;
+    padding: 10px;
+    
+}
+#madara{
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-image: url('HD-wallpaper-naruto-uzumaki-minimalist.jpg');
+    background-size: contain;
+    background-color: #FF9432;
+}
+#hinata{
+    background-color: #FF9432;
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-image: url('wallpapersden.com_hokage-naruto-4k_1360x768.jpg');
+}
+footer{
+    background-color:#FF9432;
+    text-align: center;
+    color: #161518;
+    margin: 0px;
+    padding: 30px;
+}
